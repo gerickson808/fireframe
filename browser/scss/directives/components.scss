@@ -41,8 +41,33 @@ table-component {
   }
 }
 
+<<<<<<< HEAD
+text-box {
+  border: 1px solid black;
+  height: 120px;
+  width: 240px;
+}
+
+.text-box {
+  background-color: white;
+  color: black;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: table;
+
+  p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+}
+
+=======
 .box-box {
   height: 5vh;
   width: 5vh;
   border-radius: 50% !important;
 }
+>>>>>>> master
